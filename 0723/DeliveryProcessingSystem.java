@@ -13,7 +13,7 @@ public class DeliveryProcessingSystem {
         DeliveryTask task = new DeliveryTask(taskId, address);
         pendingQueue.add(task);
         logs.add("新增配送工作: " + task);
-        System.out.println("新增成功: " + task);
+        System.out.println("新增成功: " + task);    
     }
 
     public void processNext() {
